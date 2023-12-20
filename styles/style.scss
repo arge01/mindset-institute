@@ -1,0 +1,24 @@
+@import './mixin';
+/*
+ * grid(
+  ***********************
+ * x-tablet = 1200px *xl
+ * tablet   = 992px  *lg
+ * x-phone  = 768px  *md
+ * phone    = 576px  *sm
+ * s-phone  = 375px  *xs
+ * xs-phone = 320px  *xxs
+  ***********************
+ * )
+*/
+@import './grid';
+
+html,
+body {
+  background: $background;
+  @include font-declare();
+  min-width: $breakpoint-xs-phone;
+  @include overflow(auto);
+}
+
+@import './component';

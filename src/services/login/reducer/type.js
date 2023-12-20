@@ -1,0 +1,6 @@
+export const TYPES = {
+  PENDING: 'PENDING',
+  LOGIN: 'LOGIN',
+  SUCCESS: 'LOGIN_SUCCESS',
+  ERROR: 'LOGIN_ERROR',
+};
